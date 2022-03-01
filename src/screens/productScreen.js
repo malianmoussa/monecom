@@ -1,18 +1,18 @@
 import React from "react";
 import Sidebar from "./../components/sidebar";
 import Header from "./../components/Header";
-import OrderMain from "../components/orders/OrderMain";
+import MainProducts from "./../components/products/MainProducts";
 
-const OrderScreen = () => {
+const ProductScreen = () => {
   return (
     <>
       <Sidebar />
       <main className="main-wrap">
         <Header />
-        <OrderMain />
+        <MainProducts />
       </main>
     </>
   );
 };
 
-export default OrderScreen;
+export default ProductScreen;
